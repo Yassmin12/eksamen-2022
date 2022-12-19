@@ -1,0 +1,295 @@
+
+.page__body {
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 0px;
+    background-image: url('baggrund.png');
+    background-size: cover;
+    min-width: 360px;
+  
+}
+
+
+
+.mennuitems_container{
+    background: #889432;
+    text-align: center;
+    color: black;
+    width: 100%;
+    background-size: 20%;
+    margin-left:0%;
+    margin-right: 0%;
+    min-height: 2%; 
+    border-radius: 12px; 
+
+}
+
+.navigation__container {
+    background-color:#889432;
+}
+
+.mobileiconlabel {
+    display: inline-block;
+    color: #ffffff;
+    background:#889432;
+    font-style: normal;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.menuitem {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*Hide checkbox and menuitems until clicked*/
+.menuitems__container,
+.mobileicon {
+    display: none;
+}
+
+/*Show menuitems when mobileicon-label is clicked*/
+.navigation__container input:checked~.menuitems__container {
+    display: block;
+}
+
+/* diplay logo to the right*/
+.companylogoheader {
+    width: 8%;
+    position: right;
+    display: block;
+    margin-left: 47%;
+    margin-top: -35px;
+}
+
+
+.pastafettuccine{
+    max-width: 100%;
+   width: 50%;
+   height:25%;
+   text-align: center;
+   margin-left: 25%;
+   margin-top:-10%;
+   
+
+}
+
+.h1{
+    text-align: center;
+    font-size: larger;
+    margin-top: -10%;
+}
+
+.information {
+   padding: 10%; 
+   text-align: center;
+   line-height: 2;
+   margin-top: -10%;
+   margin-left: 10%;
+   margin-right: 10%;
+}
+
+.button{
+    position: absolute;
+    color:#889432;
+    margin-top: 260px;
+    font-size: 20px;
+    padding: 10px 35px;
+    cursor: pointer;
+    width: 35%;
+    margin-left: 16%;
+    margin-top: -6%;
+    text-align: center;
+border-radius: 14px;
+}
+
+.column {
+    font-size: larger;
+    border-radius: 16px;
+    float: left;
+    width: 350px;
+    padding: 25px;
+    margin: 20px;
+    margin-top: 10%;
+    margin-left: 14%;
+    margin-bottom: 30%;
+    color:#889432
+    border-width:2px;
+    border-style:solid;
+    border-color:#889432;
+  }
+
+.pastaretter {
+    border-radius: 16px;
+    font-style: italic;
+
+  }
+
+.lignendevarer{
+    border-radius: 16px;
+  }
+
+  
+.icons{
+    width: 50px;
+    height: 50px;
+    padding: 3rem;
+
+}
+
+ .footer {
+    width: 96%;
+    background-color: #889432;
+    color: white;
+    margin-top: 50%;
+    padding: 2%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+   
+    }
+
+.companylogo {
+    width: 100px;
+    height: 100px;
+    align-items: baseline;
+    justify-content: center;
+    display: flex;
+
+}
+ .column2{
+    font-size: larger;
+    border-radius: 16px;
+    float: left;
+    width: 350px;
+    padding: 25px;
+    color:black;
+   justify-content: center;
+   margin-top: 12%;
+   margin-left: 16%;
+ 
+ }
+
+ .column3{
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 16px;
+    float: left;
+    padding: 25px;
+   font-size: larger;
+    margin-top: 10%;
+    margin-left: 17%;
+  margin-bottom: 5%;
+    color:#889432
+    border-width:2px;
+    border-style:solid;
+    border-color:#889432;
+    
+   
+   
+ }
+
+ .tilbageknap{
+    position: absolute;
+   color: #889432;
+    margin-left: 45%;
+    font-size: 20px;
+    margin-top: 5%;
+    cursor: pointer;
+   
+ }
+
+ .h2{
+    position: absolute;
+    justify-content: center;
+    font-style: italic;
+    margin-left: 43%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    margin-top: 3%;
+
+ }
+
+ .urtekram{
+    position: absolute;
+    margin-left: 13%;
+    margin-top: 15%;
+    height: 40%;
+    margin-top: -47%;
+    max-width: 30%;
+ 
+ }
+
+ .h3 {
+    padding: 10%;
+    margin-left: 30%;
+    justify-content: center;
+    line-height:2rem;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+ @media screen and (min-width:800px) {
+
+    /* ---- header ---- */
+
+    .navigation__container {
+        position: relative;
+        top: 0;
+        padding-bottom: 5px;
+    }
+
+    .menuitem {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        color: #f2f2f2;
+        text-decoration: none;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .active_menuitem {
+        background-color:#889432
+    }
+
+    .menuitems__container {
+        display: none;
+    }
+
+    .navigation__container input:checked~.menuitems__container {
+        display: block;
+    }
+
+    .menuitems__container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .menuitem:hover {
+        background-color:#dcd7c2;
+    }
+
+    .mobileiconlabel {
+        display: none;
+    }
+
+    .companylogoheader {
+        margin-top: 1px;
+    }
+
+   
+ /* ---- footer ---- */
+
+ .page_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5% 10%;
+}
